@@ -10,16 +10,16 @@ const schema = new Schema({
         trim: true
     },
     idade: {
-        type: Number,
-        required: true,
-        trim: true
-    },
-    telefone:{
         type: String,
         required: true,
         trim: true
     },
-    email:{
+    telefone: {
+        type: String,
+        required: true,
+        trim: true
+    },
+    email: {
         type: String,
         required: true,
         trim: true,
